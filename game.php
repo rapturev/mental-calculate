@@ -18,7 +18,7 @@ class Director {
     public function chooseDifficultyAndStart() {
 
         $builder = new ItemBuilder();
-        global $difficultyMode;
+
         echo "please choose a difficulty level by entering a number: 1, 2 or 3\n";
         $difficultyLevel = readline();
         switch($difficultyLevel) {
