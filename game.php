@@ -41,7 +41,7 @@ class Director {
 class ItemBuilder {
 
     //generating of plus, minus etc.
-    public function generateOperation()
+    private function generateOperation()
     {
         global $firstValue;
         global $secondValue;
