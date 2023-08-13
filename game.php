@@ -40,6 +40,11 @@ class Director {
 //ItemBuilder is a creator of "items" - single math exercises
 class ItemBuilder {
 
+    public $firstValue;
+    public $secondValue;
+    public $operation;
+    public $resultValue;
+
     //generating of plus, minus etc.
     private function generateOperation()
     {
